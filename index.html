@@ -190,7 +190,37 @@
             margin: 20px 0;
             border-radius: 5px;
         }
+        .flow-chart-section {
+    margin: 40px 0;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #e0e0e0;
+}
+
+.flow-chart-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.flow-chart-image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.flow-chart-caption {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+}
+
     </style>
+    
 </head>
 
 <body>
@@ -345,7 +375,20 @@
 
             <div class="flow-step">7. Price <span style="margin-left:10px;font-size:.8em;color:#666">(Creates ad & moves to payment)</span></div>
         </div>
- 
+ <!-- Flow Chart Image Section -->
+<div class="flow-chart-section">
+    <h3 style="text-align:center;margin-bottom:20px">Flow Chart</h3>
+
+    <div class="flow-chart-image-wrapper">
+        <img 
+            src="./SMC VIP Flow steps dependency flow chart.png"
+            alt="SMC VIP Flow Chart"
+            loading="lazy"
+        />
+    </div>
+</div>
+
+
         <!-- Notes -->
         <div class="notes">
             <h3>Important Notes</h3>
